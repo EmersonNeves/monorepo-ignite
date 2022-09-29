@@ -1,0 +1,16 @@
+.avatar{
+    box-sizing: initial;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: 2px solid var(--gray-600);
+}
+
+.avatarHasBorder {
+    box-sizing: initial;
+    width: calc(3rem + 12px);
+    height: calc(3rem + 12px);
+    border-radius: 8px;
+    border: 2px solid var(--gray-600);
+    outline: 3px solid var(--green-500);
+}

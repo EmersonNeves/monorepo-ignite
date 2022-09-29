@@ -1,0 +1,13 @@
+{
+  "name": "monorepo-ignite",
+  "version": "1.0.0",
+  "author": {
+   "name": "Emerson Pereira" 
+  },
+  "main": "index.js",
+  "private": true,
+  "workspaces":[
+    "packages/*"
+  ],
+  "license": "MIT"
+}
